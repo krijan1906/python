@@ -1,3 +1,12 @@
+# data types in python
+#integer-int
+#float-decimal number
+#string-text
+#boolean-true/false
+#input function
+#tupple
+#list
+#dictionary
 
 money1=int(input("enter the number"))
 money2=int(input("enter second number"))

@@ -4,4 +4,4 @@ if name=="krijan":
 
 else:
     print("sorrry you are not my admin")
-    print("you cannot not my admin")
+    print("you cannot not welcome")

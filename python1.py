@@ -8,6 +8,8 @@
 #list
 #dictionary
 
+
+
 money1=int(input("enter the number"))
 money2=int(input("enter second number"))
 name=input("enter the persion name")

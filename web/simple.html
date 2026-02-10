@@ -3,36 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>krijan Maharjan</title>
+    <title>Krijan Maharjan</title>
+
     <style>
-        nav{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding:10px 20px;
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
             background-color: rgb(214, 209, 209);
-            border-radius: 50px;
+            border-radius: 0 0 20px 20px;
         }
-        #navclass{
-            display:flex;
-            align-items:center;
+
+        nav img {
+            border-radius: 50%;
         }
-        a{
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        nav ul a:hover {
+            background-color: #bdbdbd;
+            border-radius: 10px;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: white;
+        }
+
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #555;
+        }
+
+        /* Section */
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Cards */
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
             padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgb(214, 209, 209);
+            margin-top: 40px;
         }
     </style>
 </head>
+
 <body>
+
+    <!-- Navbar -->
     <nav>
         <div class="navclass">
             <img src="logo.png" alt="Logo" width="50" height="50">
         </div>
         <ul>
-            <a href="#"><b>Home</b></a>
-            <a href="#"><b>About</b></a>
-            <a href="#"><b>Contact</b></a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
         </ul>
     </nav>
-    
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Hello, I'm Krijan Maharjan</h1>
+        <p>Beginner Web Developer learning HTML & CSS</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p style="text-align:center;">
+            I am learning web development and building simple projects using HTML and CSS.
+            This is a basic layout to understand page structure and styling.
+        </p>
+    </div>
+
+    <!-- Services / Skills -->
+    <div class="section">
+        <h2>What I Know</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Structure of web pages</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Styling and layout</p>
+            </div>
+            <div class="card">
+                <h3>Learning JS</h3>
+                <p>Basic interactivity</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        2026 Krijan Maharjan
+    </footer>
+
 </body>
 </html>
